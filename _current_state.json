@@ -1,0 +1,63 @@
+{
+  "agents_skills": {
+    "count": 8,
+    "items": [
+      "caveman-ponytail",
+      "claude-code-bash-patterns",
+      "codebase-analysis",
+      "debug",
+      "git-workflow",
+      "planning-with-files",
+      "test-driven-development",
+      "track-scream-mods"
+    ],
+    "hash": "c201ca34"
+  },
+  "plugins_marketplaces": {
+    "count": 4,
+    "items": [
+      "caveman",
+      "claude-plugins-official",
+      "cloudflare",
+      "ponytail"
+    ],
+    "hash": "f43800d9"
+  },
+  "commands": {
+    "count": 1,
+    "items": [
+      "abb.md"
+    ],
+    "hash": "b36f4dbe"
+  },
+  "rules": {
+    "count": 1,
+    "items": [
+      "common"
+    ],
+    "hash": "a5b40470"
+  },
+  "projects": {
+    "count": 17,
+    "items": [
+      "-Users-ryan",
+      "-Users-ryan--claude-worktrees-nanoclaw-mystifying-goldstine",
+      "-Users-ryan--claude-worktrees-nanoclaw-sleepy-nightingale",
+      "-Users-ryan-ComfyUI",
+      "-Users-ryan-Library",
+      "-Users-ryan-agent-sandbox",
+      "-Users-ryan-gbrain",
+      "-Users-ryan-gbrain--claude-worktrees-compassionate-tu-125a92",
+      "-Users-ryan-gbrain--claude-worktrees-exciting-lichterman-2785f0",
+      "-Users-ryan-gbrain--claude-worktrees-hopeful-swanson-4ffd48",
+      "-Users-ryan-gbrain--claude-worktrees-interesting-dijkstra-d61762",
+      "-Users-ryan-gbrain--claude-worktrees-modest-jones-85d224",
+      "-Users-ryan-gbrain--claude-worktrees-vigorous-ride-b584cc",
+      "-Users-ryan-meta-agent",
+      "-Users-ryan-nanoclaw",
+      "-Users-ryan-nanoclaw-nanoclaw",
+      "-Users-ryan-project-golem"
+    ],
+    "hash": "abf83f80"
+  }
+}
