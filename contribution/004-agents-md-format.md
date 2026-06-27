@@ -42,6 +42,10 @@ AI agent 必須遵守的規則（紅線、約定）。
 2. 在 `scream create` 模板中加入 `AGENTS.md`
 3. 在文件說明中推廣此格式
 
+## 參考實作
+
+- [`scream-fork/AGENTS.md`](https://github.com/RYN6666999/scream-fork/blob/main/AGENTS.md) — 完整實作，包含 tech stack、架構圖、開發命令、11 條 rules、session init 協議、技能清單
+
 ## 狀態
 
 draft | 可合併至 scream-code v0.6.0

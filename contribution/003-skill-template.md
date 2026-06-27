@@ -40,6 +40,14 @@ Scream Code 的 Skill 系統缺乏統一的結構約定，導致 AI agent 使用
 - 不指定特定腦庫 key 命名（保留給專案自訂）
 - 不限制 skill 的擴充區塊（三區塊是最低要求，可加額外內容）
 
+## 參考實作
+
+- 模板檔案：[`scream-fork/skill-template.md`](https://github.com/RYN6666999/scream-fork/blob/main/skill-template.md)
+- 實作範例（三支 project skill 皆遵循此模板）：
+  - [`scream-fork/skills/agentos/SKILL.md`](https://github.com/RYN6666999/scream-fork/blob/main/skills/agentos/SKILL.md)
+  - [`scream-fork/skills/template-batch/SKILL.md`](https://github.com/RYN6666999/scream-fork/blob/main/skills/template-batch/SKILL.md)
+  - [`scream-fork/skills/troubleshooter/SKILL.md`](https://github.com/RYN6666999/scream-fork/blob/main/skills/troubleshooter/SKILL.md)
+
 ## 狀態
 
 draft | 可合併至 scream-code v0.6.0

@@ -36,6 +36,10 @@ scream config set code-mode ponytail|normal
 - 中文特定的碎片化語法（保留給用戶自訂）
 - 第三方 marketplace plugins 的安裝邏輯
 
+## 參考實作
+
+完整實作在 [RYN6666999/scream-fork](https://github.com/RYN6666999/scream-fork) 的使用者級 skill：`~/.agents/skills/caveman-ponytail/SKILL.md`。包含輸出壓縮規則、程式碼極簡階梯、中文碎片化規則、Fable-5 禁止用語、自主性 Rule #0。
+
 ## 狀態
 
 draft | 可合併至 scream-code v0.6.0
