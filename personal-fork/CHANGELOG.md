@@ -42,6 +42,41 @@
 - -Users-ryan-nanoclaw-nanoclaw
 - -Users-ryan-project-golem
 
+## 2026-06-27 — Phase 9：Vibe Coding Radar 全做（4 工具 + 1 skill）
+
+### 安裝
+- `codebase-memory-mcp` v0.8.1 — 程式碼知識圖譜（158 語言、14 MCP tools、<1ms 查詢）
+- `agentsview` v0.34.5 — Coding Agent 會話分析（20+ agent 支援、token 成本、activity heatmap）
+- `OpenCLI` v1.8.4 — 100+ 站點 CLI adapters（小紅書/B站/知乎/Twitter）
+- 以上均已自動配置 MCP server / CLI 路徑
+
+### 新增 Project Skill
+- `skill-security` — NVIDIA SkillSpector 啟發的安全掃描器（4 類 16 模式 + 風險評分 + Baseline）
+- AGENTS.md 新增「系統工具」章節
+
+### fdd-crm 首次索引
+- codebase-memory-mcp 已索引 fdd-crm：924 nodes、2499 edges、73 files、611ms
+- agentsview 已啟動在 localhost:8080
+
+---
+
+## 2026-06-27 — Vibe Coding Radar 啟發升級（caveman-ponytail v4.0.0）
+
+### 新增（3 項，來自 headroom 52k★）
+- **Input Compression** — content-aware type routing（JSON/code/log/diff/CSV/plain），搭配 detection heuristic + AdaptiveSizer（資訊飽和檢測）
+- **CCR (Compress-Cache-Retrieve)** — 壓縮捨棄的內容存 hash 到 `~/.scream-code/ccr/`，可召回，session 結束自動清理
+- **CacheAligner** — system prompt 穩定性檢測，動態內容移出 system prompt 保護 KV cache
+
+### 新增（2 項，來自 radar.lyihub.com/skills.html）
+- **Common Rationalizations 表** — 加到 skill-template + agentos + template-batch + troubleshooter
+- **Description 改純觸發條件** — 實證發現 description 摘要流程會讓 agent 不讀完整 SKILL.md
+
+### 新增參考來源
+- AGENTS.md 掛載 Vibe Coding 雷達參考鏈結
+- caveman-ponytail sources 新增 headroom + radar.lyihub.com
+
+---
+
 ## 2026-06-27 — Phase 8：Personal Fork 推送至 GitHub
 
 ### 新增
