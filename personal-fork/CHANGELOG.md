@@ -41,3 +41,29 @@
 - -Users-ryan-nanoclaw
 - -Users-ryan-nanoclaw-nanoclaw
 - -Users-ryan-project-golem
+
+## 2026-06-27 — Base44 啟發的全域升級（Phase 1-3）
+
+### 新增專案級 Skill（3）
+- `agentos`（升級：進場檢查 + anti-hallucination + interface）
+- `template-batch`（升級：進場檢查 + anti-hallucination + interface）
+- `troubleshooter`（新建：標準化排查流程）
+
+### 新增基礎建設
+- `.claude-plugin/plugin.json` + `marketplace.json` — Plugin marketplace 格式
+- `AGENTS.md` — 寫給 AI 開發者看的架構總覽
+- `skill-template.md` — 新 Skill 模板（進場檢查 / anti-hallucination / interface）
+- `improvement-plan-scream-code.md` — 完整提升計畫
+
+### 新增自動化 (agent-sandbox)
+- `CLAUDE.md` — 技術規格 + 架構圖 + 開發指令
+- `.github/workflows/claude-code-review.yml` — PR 自動 AI 審查
+- `.github/workflows/sync-agentos-skill.yml` — 發版自動更新 SKILL.md
+- `.scream-code/skill-sources/agentos/SKILL.md` — Skill source of truth
+
+### 跨 Skill Interface 互通網路
+```
+agentos ── skill/agentos/status ──→ template-batch, troubleshooter, agentos-bridge
+template-batch ── skill/template-batch/last-run ──→ agentos
+agentos-bridge ── shared/status-from-* ──→ agentos
+```

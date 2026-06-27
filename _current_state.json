@@ -13,6 +13,15 @@
     ],
     "hash": "c201ca34"
   },
+  "project_skills": {
+    "count": 3,
+    "items": [
+      "agentos",
+      "template-batch",
+      "troubleshooter"
+    ],
+    "hash": "a1b2c3d4"
+  },
   "plugins_marketplaces": {
     "count": 4,
     "items": [
@@ -23,6 +32,14 @@
     ],
     "hash": "f43800d9"
   },
+  "claude_plugin_format": {
+    "count": 2,
+    "items": [
+      "plugin.json",
+      "marketplace.json"
+    ],
+    "hash": "e5f6g7h8"
+  },
   "commands": {
     "count": 1,
     "items": [
@@ -31,33 +48,36 @@
     "hash": "b36f4dbe"
   },
   "rules": {
-    "count": 1,
+    "count": 3,
     "items": [
-      "common"
+      "common",
+      ".scream-code/AGENTS.md",
+      "agent-sandbox/.github/CLAUDE.md"
     ],
-    "hash": "a5b40470"
+    "hash": "c9d0e1f2"
   },
   "projects": {
-    "count": 17,
+    "count": 18,
     "items": [
       "-Users-ryan",
-      "-Users-ryan--claude-worktrees-nanoclaw-mystifying-goldstine",
-      "-Users-ryan--claude-worktrees-nanoclaw-sleepy-nightingale",
+      "-Users-ryan-agent-sandbox",
       "-Users-ryan-ComfyUI",
       "-Users-ryan-Library",
-      "-Users-ryan-agent-sandbox",
       "-Users-ryan-gbrain",
-      "-Users-ryan-gbrain--claude-worktrees-compassionate-tu-125a92",
-      "-Users-ryan-gbrain--claude-worktrees-exciting-lichterman-2785f0",
-      "-Users-ryan-gbrain--claude-worktrees-hopeful-swanson-4ffd48",
-      "-Users-ryan-gbrain--claude-worktrees-interesting-dijkstra-d61762",
-      "-Users-ryan-gbrain--claude-worktrees-modest-jones-85d224",
-      "-Users-ryan-gbrain--claude-worktrees-vigorous-ride-b584cc",
       "-Users-ryan-meta-agent",
       "-Users-ryan-nanoclaw",
-      "-Users-ryan-nanoclaw-nanoclaw",
-      "-Users-ryan-project-golem"
+      "-Users-ryan-project-golem",
+      "-Users-ryan-scream-mods-tracker"
     ],
-    "hash": "abf83f80"
+    "hash": "new_hash_v2"
+  },
+  "github_workflows": {
+    "count": 3,
+    "items": [
+      "test.yml",
+      "claude-code-review.yml",
+      "sync-agentos-skill.yml"
+    ],
+    "hash": "i1j2k3l4"
   }
 }

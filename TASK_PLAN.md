@@ -22,9 +22,17 @@
 ## 階段
 
 - [x] Phase 0: 建立目錄結構
-- [ ] Phase 1: 寫追蹤腳本 track.sh
-- [ ] Phase 2: 寫追蹤技能 SKILL.md
-- [ ] Phase 3: 建立個人 Fork 文件
-- [ ] Phase 4: 建立貢獻 PR 文件
-- [ ] Phase 5: 設定 cron job
-- [ ] Phase 6: 初始化 baseline 快照
+- [x] Phase 1: 寫追蹤腳本 track.sh
+- [x] Phase 2: 寫追蹤技能 SKILL.md
+- [x] Phase 3: 建立個人 Fork 文件
+- [x] Phase 4: 建立貢獻 PR 文件
+- [x] Phase 5: 設定 cron job
+- [x] Phase 6: 初始化 baseline 快照 (2026-06-19)
+- [x] Phase 7: 2026-06-27 大更新 — Base44 啟發的全球升級
+  - P1: SKILL.md 狀態感知 + anti-hallucination (agentos, template-batch)
+  - P2: Plugin marketplace 格式 (.claude-plugin/)
+  - P3: Auto-sync pipeline (sync-agentos-skill.yml)
+  - P4: AGENTS.md + CLAUDE.md 補完
+  - P5: Troubleshooter skill 建立
+  - P6: 跨 Skill Interface 協定
+  - P7: CI/CD Agent Review workflow
