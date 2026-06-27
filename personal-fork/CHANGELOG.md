@@ -42,6 +42,20 @@
 - -Users-ryan-nanoclaw-nanoclaw
 - -Users-ryan-project-golem
 
+## 2026-06-27 — Phase 8：Personal Fork 推送至 GitHub
+
+### 新增
+- `RYN6666999/scream-fork` repo 已建立並推送
+- AGENTS.md / 3 project skills / claude-plugin / config.toml.example / skill-template.md / improvement-plan 已上線
+- plugin.json / marketplace.json 已補完（homepage + repository）
+
+### 同步更新
+- `.scream-code/.claude-plugin/plugin.json`（補完 URL）
+- `.scream-code/.claude-plugin/marketplace.json`（補完 URL）
+- `scream-mods-tracker/TASK_PLAN.md`（加 Phase 8）
+
+---
+
 ## 2026-06-27 — Base44 啟發的全域升級（Phase 1-3）
 
 ### 新增專案級 Skill（3）

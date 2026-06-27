@@ -29,6 +29,7 @@
 - [x] Phase 5: 設定 cron job
 - [x] Phase 6: 初始化 baseline 快照 (2026-06-19)
 - [x] Phase 7: 2026-06-27 大更新 — Base44 啟發的全球升級
+- [x] Phase 8: 2026-06-27 — 建立 RYN6666999/scream-fork repo + 推送程式碼
   - P1: SKILL.md 狀態感知 + anti-hallucination (agentos, template-batch)
   - P2: Plugin marketplace 格式 (.claude-plugin/)
   - P3: Auto-sync pipeline (sync-agentos-skill.yml)
